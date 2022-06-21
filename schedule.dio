@@ -14,7 +14,7 @@
                     <mxGeometry y="30" width="270" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="sheduleテーブル" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="390" y="170" width="240" height="140" as="geometry"/>
+                    <mxGeometry x="400" y="170" width="240" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="・title ( string型, NOT NULL )&#10;・content ( string型, NOT NULL )" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="4" vertex="1">
                     <mxGeometry y="30" width="240" height="110" as="geometry"/>
