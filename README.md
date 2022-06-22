@@ -1,28 +1,30 @@
-# README
+## アプリケーション名
+Schedule Calendar
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーション概要
+スケジュールをカレンダー表で管理し、スケジュールの目標達成詳細をクリックすることで確認できる。
 
-Things you may want to cover:
+## URL
 
-* Ruby version
+## テスト用アカウント
+・Basic認証パスワード：
+・Basic認証ID :
+・メールアドレス :
+・パスワード :
 
-* System dependencies
+## 利用方法
+### 
+ 1.新規登録画面からユーザー新規登録を行う。
+ 2.投稿ボタンからスケジュールタイトル名と内容を入力し投稿する
+ 3.目標が達成できたらチェックボックスにチェックを入れる。
 
-* Configuration
+ ## アプリケーションを作成した背景
+ 今回、テックキャンプで学んでいて自分の計画性のなさとスケジュール管理の甘さを痛感し、自分が
+ どのようにすればこの課題を解決できるのかを考えた結果、アプリケーションとしてスケジュール管
+ 理表を作って、それが見やすい形で表示できればと思いアプリケーションを開発することにした。
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+## 洗い出した要件
+要件を定義したシート
 
 ## users テーブル
 
@@ -35,16 +37,17 @@ Things you may want to cover:
 
 ### Association
 
-- has_many :shedules
+- has_many :schedules
 
- ## shedules テーブル
+ ## schedules テーブル
 
 | Column              | Type       | Options                        |
 | ------              | ------     | -----------                    |
-| title               | string     | null: false                    |
-| contents            | text       | null: false                    |
+| title               | string     |                                |
+| contents            | text       |                                |
+| start_time          | datetime   |                                |
 | user                | references | null: false, foreign_key: true |
 
 ### Association
- -  belongs_to :user
+ - has_many :user
  
