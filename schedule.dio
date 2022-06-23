@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="x37EKG1PPgbTKGGPe_I-" name="ページ1">
+        <mxGraphModel dx="322" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;endSize=20;startSize=20;startArrow=ERone;startFill=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="userテーブル" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=23;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="170" width="270" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div&gt;&lt;span&gt;・nickname ( string型, NOT&amp;nbsp;&lt;/span&gt;&lt;span&gt;NULL )&lt;/span&gt;&lt;/div&gt;&lt;div&gt;・email ( string型, NOT NULL, ユニーク制約 )&lt;/div&gt;&lt;div&gt;・encypeted＿password ( string型, NOT NULL)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+                    <mxGeometry y="30" width="270" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="scheduleテーブル" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="170" width="270" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="・title ( string型,  )&#10;・content ( string型,  )&#10;・start_time (detetime型,)&#10;・user (references型, NOT NULL, 外部キー )" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#FFFFFF;" parent="4" vertex="1">
+                    <mxGeometry y="30" width="270" height="110" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
