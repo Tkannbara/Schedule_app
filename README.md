@@ -8,8 +8,8 @@ Schedule Calendar
 
 
 ## テスト用アカウント
-- Basic認証パスワード：
-- Basic認証ID :
+- Basic認証パスワード： akuseru1316
+- Basic認証ID : kuroinu
 - メールアドレス :
 - パスワード :
 
