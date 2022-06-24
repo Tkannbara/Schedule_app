@@ -17,5 +17,5 @@
 
 <%= link_to '編集', edit_schedule_path(@schedule) %>
 <%= link_to '消去',schedule_path(@schedule.id), method: :delete, data: { confirm: '本当に?' } %>
-<%= link_to '戻る', schedule_path %>
+<%= link_to '戻る', root_path %>
 </div>

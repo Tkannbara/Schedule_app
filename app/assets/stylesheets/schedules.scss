@@ -1,8 +1,27 @@
-.toppage{
+.top{
   background-color: aqua;
 
 }
 
 .col-md-4{
-background-color: burlywood;
+  background-color:darkorange;
+ height: 100vh;
+}
+
+.row{
+  background-color: aqua;
+  display: flex;
+  height:100vh;
+  
+}
+
+.col-md-8{
+  width: 100vw;
+  height:100vh;
+}
+
+.table-striped{
+  background-image: image-url('japanese-style_00013.png');
+  background-size: cover;
+  height: 97vh;
 }
